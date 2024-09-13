@@ -5,6 +5,7 @@ namespace RiseTech\CodeGenerate\Database;
 use Exception;
 use Illuminate\Support\Facades\DB;
 use RiseTech\CodeGenerate\Contracts\Driver\DatabaseDriverInterface;
+
 class DatabaseDriverFactory
 {
     /**

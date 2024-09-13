@@ -2,7 +2,6 @@
 
 namespace RiseTech\CodeGenerate\Traits;
 
-
 use RiseTech\CodeGenerate\CodeGenerate;
 use Illuminate\Support\Facades\Schema;
 
