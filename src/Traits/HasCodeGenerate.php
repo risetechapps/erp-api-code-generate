@@ -6,9 +6,9 @@ use RiseTech\CodeGenerate\CodeGenerate;
 use Illuminate\Support\Facades\Schema;
 
 
-trait CodeGenerateTrait
+trait HasCodeGenerate
 {
-    protected static function bootCodeGenerateTrait(): void
+    protected static function bootHasCodeGenerate(): void
     {
         static::creating(/**
          * @throws \Exception
